@@ -27,12 +27,12 @@ function setList(veiculos){
                "                             <div class=\"card-body\">\n" +
                "                                 <h5 class=\"card-title\">"+veiculos[key].name+"</h5>\n" +
                "                                 <p class=\"card-text\">"+veiculos[key].description+"</p>\n" +
-               "                                 <p class=\"card-text\" style=\"text-align: right"><b>"+formartValue(veiculos[key].price)+"</b></p>\n" +
+               "                                 <p class=\"card-text\" style=\"text-align: right\"><b>"+formartValue(veiculos[key].price)+"</b></p>\n" +
                "                             </div>\n" +
                "                         </div>\n" +
                "                     </div>\n" +
                "                 </div>\n" +
-               "            </div>"
+               "            </div>";
 
       }
       document.getElementById("vehicles-list").innerHTML = lista;
